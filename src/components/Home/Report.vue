@@ -10,17 +10,21 @@
         Scrutinize performance and meet compliance requests
       </h1>
       <div class="flex my-[16px]">
-        <button class="flex py-[10px] px-[16px] bg-id-gray-4 rounded-[32px] mr-[24px]">
-            <img src="@/assets/icons/double-tick.svg" alt="" class="mr-[8px]">
-            <span class="text-id-green-2 text-[14px]">Increase trust</span>
+        <button
+          class="flex py-[10px] px-[16px] bg-id-gray-4 rounded-[32px] mr-[24px]"
+        >
+          <img src="@/assets/icons/double-tick.svg" alt="" class="mr-[8px]" />
+          <span class="text-id-green-2 text-[14px]">Increase trust</span>
         </button>
-        <button class="flex py-[10px] px-[16px] bg-id-gray-4 rounded-[32px] mr-[24px]">
-            <img src="@/assets/icons/double-tick.svg" alt="" class="mr-[8px]">
-            <span class="text-id-green-2 text-[14px]">Mitigate risk</span>
+        <button
+          class="flex py-[10px] px-[16px] bg-id-gray-4 rounded-[32px] mr-[24px]"
+        >
+          <img src="@/assets/icons/double-tick.svg" alt="" class="mr-[8px]" />
+          <span class="text-id-green-2 text-[14px]">Mitigate risk</span>
         </button>
         <button class="flex py-[10px] px-[16px] bg-id-gray-4 rounded-[32px]">
-            <img src="@/assets/icons/double-tick.svg" alt="" class="mr-[8px]">
-            <span class="text-id-green-2 text-[14px]">Save resources</span>
+          <img src="@/assets/icons/double-tick.svg" alt="" class="mr-[8px]" />
+          <span class="text-id-green-2 text-[14px]">Save resources</span>
         </button>
       </div>
       <p class="text-[20px] leading-[30px] mt-[16px]">
@@ -30,7 +34,7 @@
       </p>
     </div>
     <div class="max-w-[562px] w-full">
-      <img src="/images/Home/report.png" alt="" class="" />
+      <img src="@/assets/images/Home/report.png" alt="" class="" />
     </div>
   </section>
 </template>

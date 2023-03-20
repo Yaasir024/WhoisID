@@ -32,12 +32,12 @@
         class="img-container p-[25px] lg:p-[30px] xl:p-[45px] rounded-full relative"
       >
         <img
-          src="/images/Industry/MoneyLenders/hero.png"
+          src="@/assets/images/Industry/MoneyLenders/hero.png"
           alt=""
           class="w-[380px] lg:w-[448px] h-[380px] lg:h-[448px] z-[20]"
         />
         <img
-          src="/images/Industry/waves.svg"
+          src="@/assets/images/Industry/waves.svg"
           alt=""
           class="absolute top-[70px] right-[-145px]"
         />

@@ -23,7 +23,7 @@ const country = ref("africa");
   >
     <div class="logo">
       <RouterLink to="/">
-        <img src="/images/Logo/white.svg" alt="" class="" />
+        <img src="@/assets/images/Logo/white.svg" alt="" class="" />
       </RouterLink>
     </div>
     <nav class="hidden md:block">

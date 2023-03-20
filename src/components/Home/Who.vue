@@ -1,7 +1,7 @@
 <template>
   <section class="flex items-center px-[112px] pt-[20px] pb-[80px]">
     <div class="max-w-[542px] w-full">
-      <img src="/images/Home/who.png" alt="" class="" />
+      <img src="@/assets/images/Home/who.png" alt="" class="" />
     </div>
     <div class="max-w-[618px] ml-[146px]">
       <span class="text-[18px] leading-[24px] font-medium text-id-yellow"

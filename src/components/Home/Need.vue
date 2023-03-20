@@ -1,7 +1,7 @@
 <template>
   <section class="flex items-center px-[112px] py-[88px]">
     <div class="max-w-[542px] w-full">
-      <img src="/images/Home/need.png" alt="" class="" />
+      <img src="@/assets/images/Home/need.png" alt="" class="" />
     </div>
     <div class="max-w-[555px] ml-[120px]">
       <h1 class="text-[42px] text-id-dark-1 leading-[50px] tracking-[-0.02em]">
@@ -9,7 +9,7 @@
       </h1>
       <ul class="">
         <li class="flex items-start mt-[26px]">
-          <img src="@/assets/icons/tick.svg" alt="" class="mt-[6px]"/>
+          <img src="@/assets/icons/tick.svg" alt="" class="mt-[6px]" />
           <div class="ml-[16px]">
             <h2 class="text-[22px] leading-[30px] font-semibold">
               Customizable form fields
@@ -21,7 +21,7 @@
           </div>
         </li>
         <li class="flex items-start mt-[26px]">
-          <img src="@/assets/icons/tick.svg" alt="" class="mt-[6px]"/>
+          <img src="@/assets/icons/tick.svg" alt="" class="mt-[6px]" />
           <div class="ml-[16px]">
             <h2 class="text-[22px] leading-[30px] font-semibold">
               Widget integration
@@ -33,7 +33,7 @@
           </div>
         </li>
         <li class="flex items-start mt-[26px]">
-          <img src="@/assets/icons/tick.svg" alt="" class="mt-[6px]"/>
+          <img src="@/assets/icons/tick.svg" alt="" class="mt-[6px]" />
           <div class="ml-[16px]">
             <h2 class="text-[22px] leading-[30px] font-semibold">SDKs</h2>
             <p class="text-[18px] leading-[24px] mt-[8px]">

@@ -4,7 +4,9 @@ import Goals from "@/components/Goals.vue";
 </script>
 
 <template>
-  <section class="px-[20px] sm:px-[30px] md:px-[65px] lg:px-[80px] md::px-[112px] pt-[40px] pb-[50px]">
+  <section
+    class="px-[20px] sm:px-[30px] md:px-[65px] lg:px-[80px] md::px-[112px] pt-[40px] pb-[50px]"
+  >
     <div class="flex flex-col items-center justify-center">
       <h3 class="text-[18px] leading-[27px] font-medium text-black mb-[24px]">
         Business goals
@@ -16,7 +18,7 @@ import Goals from "@/components/Goals.vue";
       </h3>
     </div>
     <div class="mt-[32px] mb-[20px]">
-      <img src="/images/integration-chart.png" alt="">
+      <img src="@/assets/images/integration-chart.png" alt="" />
     </div>
     <Goals />
     <div class="mt-[32px] flex flex-wrap" v-if="false">
@@ -59,7 +61,11 @@ import Goals from "@/components/Goals.vue";
               process.
             </p>
           </div>
-          <img src="/images/Industry/integration.svg" alt="" class="mt-auto" />
+          <img
+            src="@/assets/images/Industry/integration.svg"
+            alt=""
+            class="mt-auto"
+          />
         </div>
       </div>
     </div>

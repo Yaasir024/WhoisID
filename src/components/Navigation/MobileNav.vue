@@ -18,7 +18,7 @@ const toggleMenu = (val) => {
   >
     <div class="h-[64px] border-b px-10 flex items-center justify-between">
       <RouterLink to="/" @click="$emit('close')">
-        <img src="/images/logo.svg" alt="" class="" />
+        <img src="@/assets/images/logo.svg" alt="" class="" />
       </RouterLink>
       <button @click="$emit('close')">
         <svg
@@ -67,7 +67,7 @@ const toggleMenu = (val) => {
             <li class="link mb-[10px]">
               <RouterLink to="/banks" @click="$emit('close')">
                 <div class="flex items-center">
-                  <img src="/images/Nav/banks.svg" alt="" class="" />
+                  <img src="@/assets/images/Nav/banks.svg" alt="" class="" />
 
                   <span class="text-black">Banks</span>
                 </div>
@@ -76,7 +76,7 @@ const toggleMenu = (val) => {
             <li class="link mb-[10px]">
               <RouterLink to="/fintechs" @click="$emit('close')">
                 <div class="flex items-center">
-                  <img src="/images/Nav/fintech.svg" alt="" class="" />
+                  <img src="@/assets/images/Nav/fintech.svg" alt="" class="" />
                   <span class="text-black">Fintechs</span>
                 </div>
               </RouterLink>
@@ -84,7 +84,7 @@ const toggleMenu = (val) => {
             <li class="link mb-[10px]">
               <RouterLink to="/money-lenders" @click="$emit('close')">
                 <div class="flex items-center">
-                  <img src="/images/Nav/money.svg" alt="" class="" />
+                  <img src="@/assets/images/Nav/money.svg" alt="" class="" />
                   <span class="text-black">Money Lenders</span>
                 </div>
               </RouterLink>

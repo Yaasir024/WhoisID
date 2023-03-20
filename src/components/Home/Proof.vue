@@ -16,7 +16,7 @@
       </p>
     </div>
     <div class="max-w-[562px] w-full">
-      <img src="/images/Home/proof.png" alt="" class="" />
+      <img src="@/assets/images/Home/proof.png" alt="" class="" />
     </div>
   </section>
 </template>

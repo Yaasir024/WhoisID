@@ -55,7 +55,7 @@ const prevSlide = () => {
               >
                 <div class="w-full text-center">
                   <img
-                    src="/images/Home/slider-facial-auth.svg"
+                    src="@/assets/images/Home/slider-facial-auth.svg"
                     alt=""
                     class="h-[140px]"
                   />
@@ -78,7 +78,7 @@ const prevSlide = () => {
               >
                 <div class="w-full text-center">
                   <img
-                    src="/images/Home/slider-facial-auth.svg"
+                    src="@/assets/images/Home/slider-facial-auth.svg"
                     alt=""
                     class="h-[140px]"
                   />
@@ -101,7 +101,7 @@ const prevSlide = () => {
               >
                 <div class="w-full text-center">
                   <img
-                    src="/images/Home/slider-facial-auth.svg"
+                    src="@/assets/images/Home/slider-facial-auth.svg"
                     alt=""
                     class="h-[140px]"
                   />
@@ -124,7 +124,7 @@ const prevSlide = () => {
               >
                 <div class="w-full text-center">
                   <img
-                    src="/images/Home/slider-facial-auth.svg"
+                    src="@/assets/images/Home/slider-facial-auth.svg"
                     alt=""
                     class="h-[140px]"
                   />
@@ -185,7 +185,7 @@ const prevSlide = () => {
               >
                 <div class="w-full text-center">
                   <img
-                    src="/images/Home/slider-facial-auth.svg"
+                    src="@/assets/images/Home/slider-facial-auth.svg"
                     alt=""
                     class="h-[140px]"
                   />
@@ -208,7 +208,7 @@ const prevSlide = () => {
               >
                 <div class="w-full text-center">
                   <img
-                    src="/images/Home/slider-facial-auth.svg"
+                    src="@/assets/images/Home/slider-facial-auth.svg"
                     alt=""
                     class="h-[140px]"
                   />
@@ -231,7 +231,7 @@ const prevSlide = () => {
               >
                 <div class="w-full text-center">
                   <img
-                    src="/images/Home/slider-facial-auth.svg"
+                    src="@/assets/images/Home/slider-facial-auth.svg"
                     alt=""
                     class="h-[140px]"
                   />

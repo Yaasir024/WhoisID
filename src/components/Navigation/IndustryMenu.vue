@@ -10,7 +10,7 @@ const emits = defineEmits(["close"]);
       <li class="mb-[26px]">
         <RouterLink to="/banks" @click="$emit('close')">
           <div class="flex items-center">
-            <img src="/images/Nav/banks.svg" alt="" class="" />
+            <img src="@/assets/images/Nav/banks.svg" alt="" class="" />
             <div class="ml-[16px]">
               <h2 class="text-[16px] leading-[24px] font-medium text-id-dark-1">
                 Banks
@@ -25,7 +25,7 @@ const emits = defineEmits(["close"]);
       <li class="mb-[26px]">
         <RouterLink to="/fintechs" @click="$emit('close')">
           <div class="flex items-center">
-            <img src="/images/Nav/fintech.svg" alt="" class="" />
+            <img src="@/assets/images/Nav/fintech.svg" alt="" class="" />
             <div class="ml-[16px]">
               <h2 class="text-[16px] leading-[24px] font-medium text-id-dark-1">
                 Fintechs
@@ -40,7 +40,7 @@ const emits = defineEmits(["close"]);
       <li class="">
         <RouterLink to="/money-lenders" @click="$emit('close')">
           <div class="flex items-center">
-            <img src="/images/Nav/money.svg" alt="" class="" />
+            <img src="@/assets/images/Nav/money.svg" alt="" class="" />
             <div class="ml-[16px]">
               <h2 class="text-[16px] leading-[24px] font-medium text-id-dark-1">
                 Money Lenders

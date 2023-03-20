@@ -12,7 +12,11 @@ import GoalsSection from "@/components/Fintech/GoalsSection.vue";
           <div
             class="white-cards p-[20px] md:p-[40px] h-[375px] flex flex-col items-center"
           >
-            <img src="/images/Industry/Fintech/customer.svg" alt="" class="" />
+            <img
+              src="@/assets/images/Industry/Fintech/customer.svg"
+              alt=""
+              class=""
+            />
             <h1
               class="mt-[32px] text-[24px] leading-[30px] font-semibold text-center max-w-[260px]"
             >
@@ -30,7 +34,11 @@ import GoalsSection from "@/components/Fintech/GoalsSection.vue";
           <div
             class="white-cards p-[20px] md:p-[40px] h-[375px] flex flex-col items-center"
           >
-            <img src="/images/Industry/Fintech/complaint.svg" alt="" class="" />
+            <img
+              src="@/assets/images/Industry/Fintech/complaint.svg"
+              alt=""
+              class=""
+            />
             <h1
               class="mt-[32px] text-[24px] leading-[30px] font-semibold text-center max-w-[260px]"
             >
@@ -49,7 +57,7 @@ import GoalsSection from "@/components/Fintech/GoalsSection.vue";
             class="white-cards p-[20px] md:p-[40px] h-[375px] flex flex-col items-center"
           >
             <img
-              src="/images/Industry/Fintech/conversion.svg"
+              src="@/assets/images/Industry/Fintech/conversion.svg"
               alt=""
               class=""
             />

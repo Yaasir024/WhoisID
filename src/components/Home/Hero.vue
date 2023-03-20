@@ -21,22 +21,23 @@
     </div>
     <div class="w-full flex items-center justify-center relative">
       <img
-        src="/images/Home/hero.png"
+        src="@/assets/images/Home/hero.png"
+        loading="lazy"
         alt=""
         class="max-w-[270px] h-[278px] z-[20]"
       />
       <img
-        src="/images/Home/ellipse-1.svg"
+        src="@/assets/images/Home/ellipse-1.svg"
         alt=""
         class="rings rotate-1 h-[270px] w-[270px]"
       />
       <img
-        src="/images/Home/ellipse-2.svg"
+        src="@/assets/images/Home/ellipse-2.svg"
         alt=""
         class="rings rotate-1 h-[425px] w-[425px]"
       />
       <img
-        src="/images/Home/ellipse-3.svg"
+        src="@/assets/images/Home/ellipse-3.svg"
         alt=""
         class="rings rotate-1 h-[530px] !w-[530px]"
       />
@@ -51,10 +52,9 @@
   left: 50%;
   transform: translate(-50%, -50%) !important;
   /* animation: rotation 5s infinite linear; */
-  
 }
 .rotate-1 {
-    animation: spin 2s linear infinite !important;
+  animation: spin 2s linear infinite !important;
 }
 
 @keyframes spin {

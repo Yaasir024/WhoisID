@@ -1,9 +1,11 @@
 <template>
   <footer class="bg-white px-[20px] md:px-[60px] lg:px-[112px]">
-    <div class="border-t h-[160px] py-4 sm:py-0 sm:h-[135px] flex items-center justify-between flex-col sm:flex-row">
+    <div
+      class="border-t h-[160px] py-4 sm:py-0 sm:h-[135px] flex items-center justify-between flex-col sm:flex-row"
+    >
       <div class="logo">
         <RouterLink to="/">
-          <img src="/images/Logo/black.svg" alt="" class="" />
+          <img src="@/assets/images/Logo/black.svg" alt="" class="" />
         </RouterLink>
       </div>
       <nav class="">

@@ -21,7 +21,7 @@
             <div
               class="bg-white p-[40px] rounded-lg w-[340px] h-[410px] flex flex-col"
             >
-              <img src="/images/Home/costs.svg" alt="" class="" />
+              <img src="@/assets/images/Home/costs.svg" alt="" class="" />
               <div class="mt-auto">
                 <h3 class="text-[18px] leading-[30px] font-semibold">
                   Reduced Costs
@@ -37,7 +37,7 @@
             <div
               class="bg-white p-[40px] rounded-lg w-[340px] h-[410px] flex flex-col"
             >
-              <img src="/images/Home/onboarding.svg" alt="" class="" />
+              <img src="@/assets/images/Home/onboarding.svg" alt="" class="" />
               <div class="mt-auto">
                 <h3 class="text-[18px] leading-[30px] font-semibold">
                   Streamlined onboarding
@@ -53,16 +53,15 @@
             <div
               class="bg-white p-[40px] rounded-lg w-[340px] h-[410px] flex flex-col"
             >
-              <img src="/images/Home/scalability.svg" alt="" class="" />
+              <img src="@/assets/images/Home/scalability.svg" alt="" class="" />
               <div class="mt-auto">
-
-                  <h3 class="text-[18px] leading-[30px] font-semibold">
-                    Scalability
-                  </h3>
-                  <p class="text-[16px] leading-[24px]">
-                    Built to fit your unique business needs, giving you the
-                    flexibility to adapt as your business evolves.
-                  </p>
+                <h3 class="text-[18px] leading-[30px] font-semibold">
+                  Scalability
+                </h3>
+                <p class="text-[16px] leading-[24px]">
+                  Built to fit your unique business needs, giving you the
+                  flexibility to adapt as your business evolves.
+                </p>
               </div>
             </div>
           </div>

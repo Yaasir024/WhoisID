@@ -9,8 +9,10 @@ import GoalsSection from "@/components/Bank/GoalsSection.vue";
     <div class="py-[80px] px-[] lg:px-[40px] xl:px-[100px] 2xl:px-[194px]">
       <div class="flex flex-wrap items-center justify-center">
         <div class="flex-full lg:flex-33.33% px-[12px] max-w-[400px] mb-6">
-          <div class="white-cards p-[20px] md:p-[40px] h-[375px] flex flex-col items-center">
-            <img src="/images/Industry/Banks/exp.svg" alt="" class="" />
+          <div
+            class="white-cards p-[20px] md:p-[40px] h-[375px] flex flex-col items-center"
+          >
+            <img src="@/assets/images/Industry/Banks/exp.svg" alt="" class="" />
             <h1
               class="mt-[32px] text-[24px] leading-[30px] font-semibold text-center max-w-[260px]"
             >
@@ -25,8 +27,14 @@ import GoalsSection from "@/components/Bank/GoalsSection.vue";
           </div>
         </div>
         <div class="flex-full lg:flex-33.33% px-[12px] max-w-[400px] mb-6">
-          <div class="white-cards p-[20px] md:p-[40px] h-[375px] flex flex-col items-center">
-            <img src="/images/Industry/Banks/trust.svg" alt="" class="" />
+          <div
+            class="white-cards p-[20px] md:p-[40px] h-[375px] flex flex-col items-center"
+          >
+            <img
+              src="@/assets/images/Industry/Banks/trust.svg"
+              alt=""
+              class=""
+            />
             <h1
               class="mt-[32px] text-[24px] leading-[30px] font-semibold text-center max-w-[260px]"
             >
@@ -41,8 +49,10 @@ import GoalsSection from "@/components/Bank/GoalsSection.vue";
           </div>
         </div>
         <div class="flex-full lg:flex-33.33% px-[12px] max-w-[400px] mb-6">
-          <div class="white-cards p-[20px] md:p-[40px] h-[375px] flex flex-col items-center">
-            <img src="/images/Industry/Banks/aml.svg" alt="" class="" />
+          <div
+            class="white-cards p-[20px] md:p-[40px] h-[375px] flex flex-col items-center"
+          >
+            <img src="@/assets/images/Industry/Banks/aml.svg" alt="" class="" />
             <h1
               class="mt-[32px] text-[24px] leading-[30px] font-semibold text-center max-w-[260px]"
             >

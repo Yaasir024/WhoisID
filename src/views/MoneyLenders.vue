@@ -12,7 +12,11 @@ import GoalsSection from "@/components/MoneyLenders/GoalsSection.vue";
           <div
             class="white-cards p-[20px] md:p-[40px] h-[375px] flex flex-col items-center"
           >
-            <img src="/images/Industry/MoneyLenders/risk.svg" alt="" class="" />
+            <img
+              src="@/assets/images/Industry/MoneyLenders/risk.svg"
+              alt=""
+              class=""
+            />
             <h1
               class="mt-[32px] text-[24px] leading-[30px] font-semibold text-center max-w-[260px]"
             >
@@ -31,7 +35,7 @@ import GoalsSection from "@/components/MoneyLenders/GoalsSection.vue";
             class="white-cards p-[20px] md:p-[40px] h-[375px] flex flex-col items-center"
           >
             <img
-              src="/images/Industry/MoneyLenders/onboarding.svg"
+              src="@/assets/images/Industry/MoneyLenders/onboarding.svg"
               alt=""
               class=""
             />
@@ -53,7 +57,7 @@ import GoalsSection from "@/components/MoneyLenders/GoalsSection.vue";
             class="white-cards p-[20px] md:p-[40px] h-[375px] flex flex-col items-center"
           >
             <img
-              src="/images/Industry/MoneyLenders/defaulters.svg"
+              src="@/assets/images/Industry/MoneyLenders/defaulters.svg"
               alt=""
               class=""
             />

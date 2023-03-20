@@ -18,9 +18,9 @@
       <div
         class="max-w-[562px] w-full order-1 lg:order-2 mb-10 lg:mb-0 relative"
       >
-        <img src="/images/UseCases/account.png" alt="" class="" />
+        <img src="@/assets/images/UseCases/account.png" alt="" class="" />
         <img
-          src="/images/UseCases/account-sub.png"
+          src="@/assets/images/UseCases/account-sub.png"
           alt=""
           class="h-[200px] absolute bottom-[-22px] xl:top-[230px] left-[-15px] xl:left-[-120px]"
         />
@@ -45,9 +45,9 @@
       <div
         class="max-w-[562px] w-full order-1 lg:order-1 mb-10 lg:mb-0 relative"
       >
-        <img src="/images/UseCases/fraud.png" alt="" class="" />
+        <img src="@/assets/images/UseCases/fraud.png" alt="" class="" />
         <img
-          src="/images/UseCases/fraud-sub.png"
+          src="@/assets/images/UseCases/fraud-sub.png"
           alt=""
           class="h-[200px] absolute bottom-[-22px] xl:top-[24px] right-[-15px] xl:right-[-120px]"
         />
@@ -71,9 +71,9 @@
       <div
         class="max-w-[562px] w-full order-1 lg:order-2 mb-10 lg:mb-0 relative"
       >
-        <img src="/images/UseCases/account.png" alt="" class="" />
+        <img src="@/assets/images/UseCases/account.png" alt="" class="" />
         <img
-          src="/images/UseCases/account-sub.png"
+          src="@/assets/images/UseCases/account-sub.png"
           alt=""
           class="h-[200px] absolute bottom-[-22px] xl:top-[230px] left-[-15px] xl:left-[-120px]"
         />
