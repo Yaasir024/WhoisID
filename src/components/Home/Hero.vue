@@ -1,3 +1,32 @@
+<script setup>
+import { ref, onMounted, onUnmounted } from "vue";
+
+const showFeature1 = ref("2");
+let intervalId;
+
+const switchImages = () => {
+  if (showFeature1.value == "1") {
+    showFeature1.value = "";
+    setTimeout(() => {
+      showFeature1.value = "2";
+    }, "500");
+  } else if (showFeature1.value == "2") {
+    showFeature1.value = "";
+    setTimeout(() => {
+      showFeature1.value = "1";
+    }, "500");
+  }
+};
+
+onMounted(() => {
+  intervalId = setInterval(switchImages, 3000);
+});
+
+onUnmounted(() => {
+  clearInterval(intervalId);
+});
+</script>
+
 <template>
   <section
     class="bg-id-green-1 px-[40px] xl:px-[80px] 2xl:px-[112px] pt-[65px] xl:pt-[180px] pb-[175px] flex lg:items-center flex-col xl:flex-row overflow-hidden"
@@ -23,67 +52,164 @@
         </button>
       </div>
     </div>
-    <div class="w-full hidden xl:flex items-center justify-center relative order-1 xl:order-2">
-      <div class="relative">
-        <img
-          src="@/assets/images/Home/hero.png"
-          loading="lazy"
-          alt=""
-          class="max-w-[270px] h-[278px] z-[20]"
-        />
-        <button
-          class="facial-btn tag-btn flex items-center py-[6px] px-[10px] absolute top-[-45px] left-[-85px] w-max h-max z-[25]"
-        >
+    <div
+      class="w-full hidden xl:flex items-center justify-center relative order-1 xl:order-2"
+    >
+      <div class="relative scale-100 z-[28]">
+        <transition-group name="grow">
+          <!-- Main -->
           <img
-            src="@/assets/images/Home/hero-tick.svg"
+            src="@/assets/images/Home/hero.png"
+            loading="lazy"
             alt=""
-            class="mr-[8px]"
+            class="max-w-[270px] h-[278px] z-[20]"
+            v-if="showFeature1 == '1'"
           />
-          <span
-            class="text-[14px] leading-[20px] text-[#027A48] font-medium font-inter shrink-0"
-            >Facial authentication</span
-          >
-        </button>
-        <button
-          class="tag-btn flex items-center py-[6px] px-[10px] absolute top-[-25px] right-[-120px] w-max z-[25]"
-        >
           <img
-            src="@/assets/images/Home/hero-tick.svg"
+            src="@/assets/images/Home/hero-2.png"
+            loading="lazy"
             alt=""
-            class="mr-[8px]"
+            class="max-w-[270px] h-[278px] z-[20]"
+            v-if="showFeature1 == '2'"
           />
-          <span
-            class="text-[14px] leading-[20px] text-[#027A48] font-medium font-inter shrink-0"
-            >Spoof detection</span
+          <!-- 1 -->
+          <button
+            class="facial-btn tag-btn flex items-center py-[6px] px-[10px] absolute top-[-45px] left-[-85px] w-max h-max z-[25]"
+            v-if="showFeature1 == '1'"
           >
-        </button>
-        <button
-          class="tag-btn flex items-center py-[6px] px-[10px] absolute bottom-[-40px] right-[35px] w-max z-[25]"
-        >
-          <img
-            src="@/assets/images/Home/hero-tick.svg"
-            alt=""
-            class="mr-[8px]"
-          />
-          <span
-            class="text-[14px] leading-[20px] text-[#027A48] font-medium font-inter shrink-0"
-            >Deep Fake Detection</span
+            <img
+              src="@/assets/images/Home/hero-tick.svg"
+              alt=""
+              class="mr-[8px]"
+            />
+            <span
+              class="text-[14px] leading-[20px] text-[#027A48] font-medium font-inter shrink-0"
+              >Facial authentication</span
+            >
+          </button>
+          <!-- b -->
+          <button
+            class="facial-btn tag-btn flex items-center py-[6px] px-[10px] absolute top-[-45px] left-[-75px] w-max h-max z-[25]"
+            v-if="showFeature1 == '2'"
           >
-        </button>
-        <button
-          class="tag-btn flex items-center py-[6px] px-[10px] absolute bottom-[100px] left-[-145px] w-max z-[25]"
-        >
-          <img
-            src="@/assets/images/Home/hero-tick.svg"
-            alt=""
-            class="mr-[8px]"
-          />
-          <span
-            class="text-[14px] leading-[20px] text-[#027A48] font-medium font-inter shrink-0"
-            >Liveness </span
+            <img
+              src="@/assets/images/Home/hero-tick.svg"
+              alt=""
+              class="mr-[8px]"
+            />
+            <span
+              class="text-[14px] leading-[20px] text-[#027A48] font-medium font-inter shrink-0"
+              >State</span
+            >
+          </button>
+          <!-- 2 -->
+          <button
+            class="tag-btn flex items-center py-[6px] px-[10px] absolute top-[-25px] right-[-120px] w-max z-[25]"
+            v-if="showFeature1 == '1'"
           >
-        </button>
+            <img
+              src="@/assets/images/Home/hero-tick.svg"
+              alt=""
+              class="mr-[8px]"
+            />
+            <span
+              class="text-[14px] leading-[20px] text-[#027A48] font-medium font-inter shrink-0"
+              >Spoof detection</span
+            >
+          </button>
+          <!-- b -->
+          <button
+            class="tag-btn flex items-center py-[6px] px-[10px] absolute top-[-25px] right-[-40px] w-max z-[25]"
+            v-if="showFeature1 == '2'"
+          >
+            <img
+              src="@/assets/images/Home/hero-tick.svg"
+              alt=""
+              class="mr-[8px]"
+            />
+            <span
+              class="text-[14px] leading-[20px] text-[#027A48] font-medium font-inter shrink-0"
+              >Country</span
+            >
+          </button>
+          <!-- 3 -->
+          <button
+            class="tag-btn flex items-center py-[6px] px-[10px] absolute bottom-[-40px] right-[35px] w-max z-[25]"
+            v-if="showFeature1 == '1'"
+          >
+            <img
+              src="@/assets/images/Home/hero-tick.svg"
+              alt=""
+              class="mr-[8px]"
+            />
+            <span
+              class="text-[14px] leading-[20px] text-[#027A48] font-medium font-inter shrink-0"
+              >Deep Fake Detection</span
+            >
+          </button>
+          <!-- b -->
+          <button
+            class="tag-btn flex items-center py-[6px] px-[10px] absolute bottom-[-20px] right-[50px] w-max z-[25]"
+            v-if="showFeature1 == '2'"
+          >
+            <img
+              src="@/assets/images/Home/hero-tick.svg"
+              alt=""
+              class="mr-[8px]"
+            />
+            <span
+              class="text-[14px] leading-[20px] text-[#027A48] font-medium font-inter shrink-0"
+              >House Number</span
+            >
+          </button>
+          <!-- 4 -->
+          <button
+            class="tag-btn flex items-center py-[6px] px-[10px] absolute bottom-[100px] left-[-145px] w-max z-[25]"
+            v-if="showFeature1 == '1'"
+          >
+            <img
+              src="@/assets/images/Home/hero-tick.svg"
+              alt=""
+              class="mr-[8px]"
+            />
+            <span
+              class="text-[14px] leading-[20px] text-[#027A48] font-medium font-inter shrink-0"
+              >Liveness
+            </span>
+          </button>
+          <!-- b -->
+          <button
+            class="tag-btn flex items-center py-[6px] px-[10px] absolute bottom-[100px] left-[-90px] w-max z-[25]"
+            v-if="showFeature1 == '2'"
+          >
+            <img
+              src="@/assets/images/Home/hero-tick.svg"
+              alt=""
+              class="mr-[8px]"
+            />
+            <span
+              class="text-[14px] leading-[20px] text-[#027A48] font-medium font-inter shrink-0"
+              >City
+            </span>
+          </button>
+          <!-- 5 -->
+          <button
+            class="tag-btn flex items-center py-[6px] px-[10px] absolute bottom-[75px] right-[-90px] w-max z-[25]"
+            v-if="showFeature1 == '2'"
+          >
+            <img
+              src="@/assets/images/Home/hero-tick.svg"
+              alt=""
+              class="mr-[8px]"
+            />
+            <span
+              class="text-[14px] leading-[20px] text-[#027A48] font-medium font-inter shrink-0"
+              >Country</span
+            >
+          </button>
+        </transition-group>
       </div>
+      <!-- ARCS -->
       <img
         src="@/assets/images/Home/ellipse-1.svg"
         alt=""
@@ -101,6 +227,7 @@
       />
     </div>
   </section>
+  {{ showFeature1 }} Renne
 </template>
 
 <style scoped>
@@ -136,43 +263,17 @@
   animation: spin 8s linear infinite !important;
 }
 
-/* top-[-45px] left-[-85px] */
-/* top-[-25px] right-[-120px]  */
-/* bottom-[-40px] right-[35px]  */
-/* bottom-[100px] left-[-145px]  */
-@keyframes facial {
-  0% {
-    top: -45px;
-    left: -85px;
-    bottom: auto;
-    right: auto;
-  }
-  25% {
-    top: -25px;
-    right: -120px;
-    bottom: initial;
-    left: initial;
-  }
-  60% {
-    bottom: -40px;
-    right: 35px;
-    top: initial;
-    left: initial;
-  }
-  85% {
-    bottom: 100px;
-    left: -145px;
-    top: initial;
-    right: initial;
-  }
-  100% {
-    top: -45px;
-    left: -85px;
-    bottom: initial;
-    right: initial;
-  }
+/* Menu Animation */
+.grow-enter-active,
+.grow-leave-active {
+  transition: transform 0.3s ease;
+  transform-origin: center;
 }
 
+.grow-enter-from,
+.grow-leave-to {
+  transform: scale(0);
+}
 
 .tag-btn {
   background: #f9fafb;
