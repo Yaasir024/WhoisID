@@ -15,8 +15,11 @@ import Goals from "@/components/Goals.vue";
         Customize verification steps to fit your KYC requirements
       </h3>
     </div>
+    <div class="mt-[32px] mb-[20px]">
+      <img src="/images/integration-chart.png" alt="">
+    </div>
     <Goals />
-    <div class="mt-[32px] flex flex-wrap">
+    <div class="mt-[32px] flex flex-wrap" v-if="false">
       <div class="flex-full lg:flex-50% md:px-[16px] mb-10">
         <div
           class="px-[32px] pt-[91px] pb-[60px] bg-id-gray-5 rounded-3xl h-[710px] flex flex-col items-center"
