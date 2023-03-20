@@ -1,5 +1,5 @@
 <template>
-  <section class="min-h-screen px-[45px] lg:px-[80px] py-[96px]">
+  <section class="min-h-screen px-[30px] md:px-[45px] lg:px-[80px] py-[96px]">
     <div class="bg-id-green-1 pt-[81px] pb-[105px] px-[20px] rounded-[24px]">
       <div class="flex flex-col items-center">
         <span class="text-[18px] leading-[27px] font-medium text-id-yellow"
@@ -19,7 +19,7 @@
         <div class="flex flex-wrap items-center justify-center mt-[64px]">
           <div class="px-[12px] mb-12">
             <div
-              class="bg-white p-[40px] rounded-lg w-[340px] h-[410px] flex flex-col"
+              class="bg-white p-[40px] rounded-lg max-w-[340px] h-[410px] flex flex-col"
             >
               <img src="@/assets/images/Home/costs.svg" alt="" class="" />
               <div class="mt-auto">
@@ -35,7 +35,7 @@
           </div>
           <div class="px-[12px] mb-12">
             <div
-              class="bg-white p-[40px] rounded-lg w-[340px] h-[410px] flex flex-col"
+              class="bg-white p-[40px] rounded-lg max-w-[340px] h-[410px] flex flex-col"
             >
               <img src="@/assets/images/Home/onboarding.svg" alt="" class="" />
               <div class="mt-auto">
@@ -51,7 +51,7 @@
           </div>
           <div class="px-[12px] mb-12">
             <div
-              class="bg-white p-[40px] rounded-lg w-[340px] h-[410px] flex flex-col"
+              class="bg-white p-[40px] rounded-lg max-w-[340px] h-[410px] flex flex-col"
             >
               <img src="@/assets/images/Home/scalability.svg" alt="" class="" />
               <div class="mt-auto">
