@@ -1,5 +1,5 @@
 <template>
-  <section class="flex items-center px-[40px] md:px-[70px] xl:px-[112px] py-[60px] lg:py-[88px] flex-col lg:flex-row">
+  <section class="flex items-center justify-center px-[40px] md:px-[70px] xl:px-[112px] py-[60px] lg:py-[88px] flex-col lg:flex-row">
     <div class="max-w-[542px] w-full mb-10 lg:mb-0 ">
       <img src="@/assets/images/Home/need.png" alt="" class="" />
     </div>

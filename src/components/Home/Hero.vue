@@ -1,8 +1,8 @@
 <template>
   <section
-    class="bg-id-green-1 px-[40px] xl:px-[112px] pt-[65px] lg:pt-[180px] pb-[175px] flex lg:items-center flex-col lg:flex-row"
+    class="bg-id-green-1 px-[40px] xl:px-[80px] 2xl:px-[112px] pt-[65px] xl:pt-[180px] pb-[175px] flex lg:items-center flex-col xl:flex-row overflow-hidden"
   >
-    <div class="max-w-[630px]">
+    <div class="max-w-[630px] overflow-hidden order-2 xl:order-1">
       <h1
         class="text-white text-[38px] sm:text-[56px] leading-[48px] sm:leading-[72px] tracking-[-0.02em] font-millik"
       >
@@ -23,13 +23,67 @@
         </button>
       </div>
     </div>
-    <div class="w-full hidden lg:flex items-center justify-center relative">
-      <img
-        src="@/assets/images/Home/hero.png"
-        loading="lazy"
-        alt=""
-        class="max-w-[270px] h-[278px] z-[20]"
-      />
+    <div class="w-full hidden xl:flex items-center justify-center relative order-1 xl:order-2">
+      <div class="relative">
+        <img
+          src="@/assets/images/Home/hero.png"
+          loading="lazy"
+          alt=""
+          class="max-w-[270px] h-[278px] z-[20]"
+        />
+        <button
+          class="tag-btn flex items-center py-[6px] px-[10px] absolute top-[-45px] left-[-85px] w-max z-[25]"
+        >
+          <img
+            src="@/assets/images/Home/hero-tick.svg"
+            alt=""
+            class="mr-[8px]"
+          />
+          <span
+            class="text-[14px] leading-[20px] text-[#027A48] font-medium font-inter shrink-0"
+            >Facial authentication</span
+          >
+        </button>
+        <button
+          class="tag-btn flex items-center py-[6px] px-[10px] absolute top-[-25px] right-[-120px] w-max z-[25]"
+        >
+          <img
+            src="@/assets/images/Home/hero-tick.svg"
+            alt=""
+            class="mr-[8px]"
+          />
+          <span
+            class="text-[14px] leading-[20px] text-[#027A48] font-medium font-inter shrink-0"
+            >Spoof detection</span
+          >
+        </button>
+        <button
+          class="tag-btn flex items-center py-[6px] px-[10px] absolute bottom-[-40px] right-[35px] w-max z-[25]"
+        >
+          <img
+            src="@/assets/images/Home/hero-tick.svg"
+            alt=""
+            class="mr-[8px]"
+          />
+          <span
+            class="text-[14px] leading-[20px] text-[#027A48] font-medium font-inter shrink-0"
+            >Deep Fake Detection</span
+          >
+        </button>
+        <button
+          class="tag-btn flex items-center py-[6px] px-[10px] absolute bottom-[100px] left-[-145px] w-max z-[25]"
+        >
+          <img
+            src="@/assets/images/Home/hero-tick.svg"
+            alt=""
+            class="mr-[8px]"
+          />
+          <span
+            class="text-[14px] leading-[20px] text-[#027A48] font-medium font-inter shrink-0"
+            >Liveness </span
+          >
+        </button>
+      </div>
       <img
         src="@/assets/images/Home/ellipse-1.svg"
         alt=""
@@ -51,12 +105,20 @@
 
 <style scoped>
 @keyframes spin {
-  from {transform: translate(-50%, -50%) rotate(0);}
-  to   {transform: translate(-50%, -50%) rotate(360deg);}
+  from {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
 }
 @keyframes spin-back {
-  from {transform: translate(-50%, -50%) rotate(0);}
-  to   {transform: translate(-50%, -50%) rotate(-360deg);}
+  from {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(-360deg);
+  }
 }
 .rings {
   position: absolute;
@@ -74,22 +136,9 @@
   animation: spin 8s linear infinite !important;
 }
 
-
-@-moz-keyframes rotation {
-  0% {
-    -moz-transform: rotate(0deg);
-  }
-  100% {
-    -moz-transform: rotate(-360deg);
-  }
-}
-
-@-webkit-keyframes rotation {
-  0% {
-    -webkit-transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(-360deg);
-  }
+.tag-btn {
+  background: #f9fafb;
+  box-shadow: 0px 0px 16px rgba(52, 52, 52, 0.1);
+  border-radius: 40px;
 }
 </style>

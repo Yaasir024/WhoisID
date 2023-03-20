@@ -1,11 +1,11 @@
 <template>
-  <section class="flex items-center px-[40px] md:px-[70px] xl:px-[112px] py-[60px] lg:py-[88px] flex-col lg:flex-row">
+  <section class="flex items-center justify-center px-[40px] md:px-[70px] xl:px-[112px] py-[60px] lg:py-[88px] flex-col lg:flex-row">
     <div class="lg:max-w-[618px] lg:mr-[80px] xl:mr-[160px] order-2 lg:order-1">
       <span class="text-[18px] leading-[24px] font-medium text-id-yellow"
         >Reports</span
       >
       <h1
-        class="text-[42px] text-id-dark-1 font-millik leading-[59px] tracking-[-0.02em] mt-[16px] font-millik"
+        class="text-[42px] text-id-dark-1 leading-[59px] tracking-[-0.02em] mt-[16px] font-millik"
       >
         Scrutinize performance and meet compliance requests
       </h1>
