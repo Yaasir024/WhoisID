@@ -19,7 +19,7 @@ const switchImages = () => {
 };
 
 onMounted(() => {
-  intervalId = setInterval(switchImages, 3000);
+  intervalId = setInterval(switchImages, 5500);
 });
 
 onUnmounted(() => {
@@ -55,7 +55,7 @@ onUnmounted(() => {
     <div
       class="w-full hidden xl:flex items-center justify-center relative order-1 xl:order-2"
     >
-      <div class="relative scale-100 z-[28]">
+      <div class="relative scale-100 z-[28] max-w-[270px] h-[278px] ">
         <transition-group name="grow">
           <!-- Main -->
           <img
