@@ -1,13 +1,17 @@
 <template>
   <section
-    class="bg-id-green-1 px-[40px] xl:px-[112px] pt-[65px] lg:pt-[150px] pb-[154px] flex lg:items-center flex-col lg:flex-row"
+    class="bg-id-green-1 px-[40px] xl:px-[112px] pt-[65px] lg:pt-[180px] pb-[175px] flex lg:items-center flex-col lg:flex-row"
   >
     <div class="max-w-[630px]">
-      <h1 class="text-white text-[38px] sm:text-[56px] leading-[48px] sm:leading-[72px] tracking-[-0.02em] font-millik">
+      <h1
+        class="text-white text-[38px] sm:text-[56px] leading-[48px] sm:leading-[72px] tracking-[-0.02em] font-millik"
+      >
         Trust and authenticate your customers with
         <span class="text-id-yellow">digital verification</span>
       </h1>
-      <h3 class="text-id-gray-3 text-[18px] sm:text-[22px] leading-[28px] sm:leading-[30px] mt-[16px]">
+      <h3
+        class="text-id-gray-3 text-[18px] sm:text-[22px] leading-[28px] sm:leading-[30px] mt-[16px]"
+      >
         Make informed business decisions by verifying who your customers are and
         where they are located.
       </h3>
@@ -34,37 +38,42 @@
       <img
         src="@/assets/images/Home/ellipse-2.svg"
         alt=""
-        class="rings rotate-1 h-[425px] w-[425px]"
+        class="rings rotate-2 h-[425px] w-[425px]"
       />
       <img
         src="@/assets/images/Home/ellipse-3.svg"
         alt=""
-        class="rings rotate-1 h-[530px] !w-[530px]"
+        class="rings rotate-3 h-[530px] !w-[530px]"
       />
     </div>
   </section>
 </template>
 
 <style scoped>
+@keyframes spin {
+  from {transform: translate(-50%, -50%) rotate(0);}
+  to   {transform: translate(-50%, -50%) rotate(360deg);}
+}
+@keyframes spin-back {
+  from {transform: translate(-50%, -50%) rotate(0);}
+  to   {transform: translate(-50%, -50%) rotate(-360deg);}
+}
 .rings {
   position: absolute;
-  top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) !important;
-  /* animation: rotation 5s infinite linear; */
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 .rotate-1 {
-  animation: spin 2s linear infinite !important;
+  animation: spin 4s linear infinite !important;
+}
+.rotate-2 {
+  animation: spin-back 6s linear infinite !important;
+}
+.rotate-3 {
+  animation: spin 8s linear infinite !important;
 }
 
-@keyframes spin {
-  from {
-    transform: translate(-50%, -50%) rotate(0deg);
-  }
-  to {
-    transform: translate(-50%, -50%) rotate(360deg);
-  }
-}
 
 @-moz-keyframes rotation {
   0% {
