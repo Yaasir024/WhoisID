@@ -10,13 +10,13 @@ const emits = defineEmits(["close"]);
       <li class="mb-[26px]">
         <RouterLink to="/banks" @click="$emit('close')">
           <div class="flex items-center">
-            <!-- <img src="@/assets/icons/nav/invoicing.svg" alt="" class="" /> -->
+            <img src="/images/Nav/banks.svg" alt="" class="" />
             <div class="ml-[16px]">
               <h2 class="text-[16px] leading-[24px] font-medium text-id-dark-1">
                 Banks
               </h2>
-              <h2 class="text-[14px] leading-[20px] text-id-gray-2">
-                Proin interdum mauris non ligula pellentesque ultrices.
+              <h2 class="text-[14px] leading-[20px] text-[#667085]">
+                Seamless integration with banking systems.
               </h2>
             </div>
           </div>
@@ -25,13 +25,13 @@ const emits = defineEmits(["close"]);
       <li class="mb-[26px]">
         <RouterLink to="/fintechs" @click="$emit('close')">
           <div class="flex items-center">
-            <!-- <img src="@/assets/icons/nav/accounting.svg" alt="" class="" /> -->
+            <img src="/images/Nav/fintech.svg" alt="" class="" />
             <div class="ml-[16px]">
               <h2 class="text-[16px] leading-[24px] font-medium text-id-dark-1">
                 Fintechs
               </h2>
-              <h2 class="text-[14px] leading-[20px] text-id-gray-2">
-                Proin interdum mauris non ligula pellentesque ultrices.
+              <h2 class="text-[14px] leading-[20px] text-[#667085]">
+                Empower fintechs with secure digital verification.
               </h2>
             </div>
           </div>
@@ -40,13 +40,14 @@ const emits = defineEmits(["close"]);
       <li class="">
         <RouterLink to="/money-lenders" @click="$emit('close')">
           <div class="flex items-center">
-            <!-- <img src="@/assets/icons/nav/book.svg" alt="" class="" /> -->
+            <img src="/images/Nav/money.svg" alt="" class="" />
             <div class="ml-[16px]">
               <h2 class="text-[16px] leading-[24px] font-medium text-id-dark-1">
                 Money Lenders
               </h2>
-              <h2 class="text-[14px] leading-[20px] text-id-gray-2">
-                Proin interdum mauris non ligula pellentesque ultrices.
+              <h2 class="text-[14px] leading-[20px] text-[#667085]">
+                Efficiently verify lenders’ information and make more accurate
+                loan decisions.
               </h2>
             </div>
           </div>

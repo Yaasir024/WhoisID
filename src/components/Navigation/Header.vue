@@ -22,7 +22,9 @@ const country = ref("africa");
     class="fixed top-0 left-0 right-0 bg-id-green-1 h-[80px] px-[40px] lg:px-[60px] xl:px-[112px] flex items-center justify-between border-b border-[#F2F4F71A] z-30"
   >
     <div class="logo">
-      <img src="/images/logo.svg" alt="" class="" />
+      <RouterLink to="/">
+        <img src="/images/Logo/white.svg" alt="" class="" />
+      </RouterLink>
     </div>
     <nav class="hidden md:block">
       <ul class="text-white flex items-center">

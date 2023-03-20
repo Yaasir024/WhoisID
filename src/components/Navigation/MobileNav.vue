@@ -64,27 +64,27 @@ const toggleMenu = (val) => {
           "
         >
           <ul class="pl-4">
-            <li class="link mb-[8px]">
-              <RouterLink to="/" @click="$emit('close')">
+            <li class="link mb-[10px]">
+              <RouterLink to="/banks" @click="$emit('close')">
                 <div class="flex items-center">
-                  <!-- <img src="@/assets/icons/nav/invoicing.svg" alt="" class="mr-3" /> -->
+                  <img src="/images/Nav/banks.svg" alt="" class="" />
 
                   <span class="text-black">Banks</span>
                 </div>
               </RouterLink>
             </li>
-            <li class="link mb-[8px]">
-              <RouterLink to="/" @click="$emit('close')">
+            <li class="link mb-[10px]">
+              <RouterLink to="/fintechs" @click="$emit('close')">
                 <div class="flex items-center">
-                  <!-- <img src="@/assets/icons/nav/accounting.svg" alt="" class="mr-3" /> -->
+                  <img src="/images/Nav/fintech.svg" alt="" class="" />
                   <span class="text-black">Fintechs</span>
                 </div>
               </RouterLink>
             </li>
-            <li class="link mb-[8px]">
-              <RouterLink to="/" @click="$emit('close')">
+            <li class="link mb-[10px]">
+              <RouterLink to="/money-lenders" @click="$emit('close')">
                 <div class="flex items-center">
-                  <!-- <img src="@/assets/icons/nav/book.svg" alt="" class="mr-3" /> -->
+                  <img src="/images/Nav/money.svg" alt="" class="" />
                   <span class="text-black">Money Lenders</span>
                 </div>
               </RouterLink>
@@ -93,7 +93,7 @@ const toggleMenu = (val) => {
         </div>
       </li>
       <li class="link h-[50px] border-b flex items-center">
-        <RouterLink to="/" @click="$emit('close')">
+        <RouterLink to="/use-cases" @click="$emit('close')">
           <span class="">Use cases</span>
         </RouterLink>
       </li>
@@ -121,6 +121,6 @@ const toggleMenu = (val) => {
 }
 
 .link:hover span {
-  color: #ff3a31;
+  color: #101828;
 }
 </style>
