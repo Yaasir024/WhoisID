@@ -6,7 +6,7 @@
           >Cost Effective</span
         >
         <h1
-          class="text-[36px] text-white leading-[44px] tracking-[-0.02em] font-millik mt-[20px] text-center"
+          class="text-[36px] text-white leading-[44px] tracking-[-0.02em] font-millik mt-[20px] text-center font-millik"
         >
           Reduce verification and cost redundancy
         </h1>

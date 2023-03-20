@@ -5,7 +5,7 @@
         >Reports</span
       >
       <h1
-        class="text-[42px] text-id-dark-1 font-millik leading-[59px] tracking-[-0.02em] mt-[16px]"
+        class="text-[42px] text-id-dark-1 font-millik leading-[59px] tracking-[-0.02em] mt-[16px] font-millik"
       >
         Scrutinize performance and meet compliance requests
       </h1>

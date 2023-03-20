@@ -35,7 +35,7 @@ const prevSlide = () => {
     >
       <div class="lg:max-w-[640px] pr-[35px] sm:pr-[80px] 2xl:pr-[152px] order-2 xl:order-1">
         <h1
-          class="text-id-dark-1 text-[38px] leading-[53px] tracking-[-0.02em]"
+          class="text-id-dark-1 text-[38px] leading-[53px] tracking-[-0.02em] font-millik"
         >
           Streamline your KYC/AML compliance with accurate
           <span class="text-id-yellow">Who and Where</span> verification
@@ -85,7 +85,7 @@ const prevSlide = () => {
                     />
                   </div>
                   <div class="">
-                    <span class="text-[14px] leading-[30px] font-medium"
+                    <span class="text-[14px] leading-[30px] font-medium font-commons"
                       >BIOMETRICS</span
                     >
                     <h2
@@ -110,7 +110,7 @@ const prevSlide = () => {
                     />
                   </div>
                   <div class="">
-                    <span class="text-[14px] leading-[30px] font-medium"
+                    <span class="text-[14px] leading-[30px] font-medium font-commons"
                       >GEOLOCATION</span
                     >
                     <h2
@@ -135,7 +135,7 @@ const prevSlide = () => {
                     />
                   </div>
                   <div class="">
-                    <span class="text-[14px] leading-[30px] font-medium"
+                    <span class="text-[14px] leading-[30px] font-medium font-commons"
                       >AUTHENTICATION</span
                     >
                     <h2

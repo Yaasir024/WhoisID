@@ -7,7 +7,7 @@
         >Where?</span
       >
       <h1
-        class="text-[28px] sm:text-[32px] md:text-[64px] text-white leading-[36px] sm:leading-[60px] md:leading-[90px] tracking-[-0.02em] mt-[24px] text-center max-w-[930px]"
+        class="text-[28px] sm:text-[32px] md:text-[64px] text-white leading-[36px] sm:leading-[60px] md:leading-[90px] tracking-[-0.02em] mt-[24px] text-center font-millik max-w-[930px]"
       >
         Locate and verify customers’ address, compare result with the claimed
         location

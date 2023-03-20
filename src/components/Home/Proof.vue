@@ -7,7 +7,7 @@
         >Proof of address</span
       >
       <h1
-        class="text-[42px] text-id-dark-1 leading-[59px] tracking-[-0.02em] mt-[16px]"
+        class="text-[42px] text-id-dark-1 leading-[59px] tracking-[-0.02em] mt-[16px] font-millik"
       >
         Improve the accuracy of customers’ address
       </h1>

@@ -3,7 +3,7 @@
     class="bg-id-green-1 px-[40px] xl:px-[112px] pt-[65px] lg:pt-[150px] pb-[154px] flex lg:items-center flex-col lg:flex-row"
   >
     <div class="max-w-[630px]">
-      <h1 class="text-white text-[38px] sm:text-[56px] leading-[48px] sm:leading-[72px] tracking-[-0.02em]">
+      <h1 class="text-white text-[38px] sm:text-[56px] leading-[48px] sm:leading-[72px] tracking-[-0.02em] font-millik">
         Trust and authenticate your customers with
         <span class="text-id-yellow">digital verification</span>
       </h1>
