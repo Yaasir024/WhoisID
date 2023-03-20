@@ -3,8 +3,9 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
     fontFamily: {
-      Millik: ["Millik Regular"],
-      sharp: ["Sharp Grotesk"],
+      millik: ["Millik Regular"],
+      euclid: ["Euclid Circular"],
+      commons: ["Commons Medium"],
     },
     screens: {
       xs: "600px",

@@ -8,7 +8,7 @@ const emits = defineEmits(["close"]);
   >
     <ul class="">
       <li class="mb-[26px]">
-        <RouterLink to="/" @click="$emit('close')">
+        <RouterLink to="/banks" @click="$emit('close')">
           <div class="flex items-center">
             <!-- <img src="@/assets/icons/nav/invoicing.svg" alt="" class="" /> -->
             <div class="ml-[16px]">
@@ -23,7 +23,7 @@ const emits = defineEmits(["close"]);
         </RouterLink>
       </li>
       <li class="mb-[26px]">
-        <RouterLink to="/" @click="$emit('close')">
+        <RouterLink to="/fintechs" @click="$emit('close')">
           <div class="flex items-center">
             <!-- <img src="@/assets/icons/nav/accounting.svg" alt="" class="" /> -->
             <div class="ml-[16px]">
@@ -38,7 +38,7 @@ const emits = defineEmits(["close"]);
         </RouterLink>
       </li>
       <li class="">
-        <RouterLink to="/" @click="$emit('close')">
+        <RouterLink to="/money-lenders" @click="$emit('close')">
           <div class="flex items-center">
             <!-- <img src="@/assets/icons/nav/book.svg" alt="" class="" /> -->
             <div class="ml-[16px]">

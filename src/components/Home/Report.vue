@@ -1,0 +1,36 @@
+<template>
+  <section class="flex items-center px-[112px] py-[88px]">
+    <div class="max-w-[535px] mr-[160px]">
+      <span class="text-[18px] leading-[24px] font-medium text-id-yellow"
+        >Reports</span
+      >
+      <h1
+        class="text-[42px] text-id-dark-1 font-millik leading-[59px] tracking-[-0.02em] mt-[16px]"
+      >
+        Scrutinize performance and meet compliance requests
+      </h1>
+      <div class="flex my-[16px]">
+        <button class="flex py-[10px] px-[16px] bg-id-gray-4 rounded-[32px] mr-[24px]">
+            <img src="@/assets/icons/double-tick.svg" alt="" class="mr-[8px]">
+            <span class="text-id-green-2 text-[14px]">Increase trust</span>
+        </button>
+        <button class="flex py-[10px] px-[16px] bg-id-gray-4 rounded-[32px] mr-[24px]">
+            <img src="@/assets/icons/double-tick.svg" alt="" class="mr-[8px]">
+            <span class="text-id-green-2 text-[14px]">Mitigate risk</span>
+        </button>
+        <button class="flex py-[10px] px-[16px] bg-id-gray-4 rounded-[32px]">
+            <img src="@/assets/icons/double-tick.svg" alt="" class="mr-[8px]">
+            <span class="text-id-green-2 text-[14px]">Save resources</span>
+        </button>
+      </div>
+      <p class="text-[20px] leading-[30px] mt-[16px]">
+        A comprehensive verification report designed to give you the confidence
+        to make business decisions, knowing your customers’ address information
+        have been verified and validated.
+      </p>
+    </div>
+    <div class="max-w-[562px] w-full">
+      <img src="/images/Home/report.png" alt="" class="" />
+    </div>
+  </section>
+</template>

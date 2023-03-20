@@ -5,6 +5,20 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Euclid Circular";
+  src: url("./fonts/Euclid-Circular-A-Regular.ttf") format("truetype"),
+    url("./fonts/Euclid-Circular-A-Medium.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Commons Medium";
+  src: url("./fonts/TT-Commons-Medium.otf") format("opentype"),
+    url("./fonts/TT-Commons-Regular.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
 
 *,
 *::before,
@@ -18,10 +32,10 @@
 body {
   min-height: 100vh;
   color: #333333;
-  background: #FFFFFF;
+  background: #ffffff;
   transition: color 0.5s, background-color 0.5s;
   line-height: 1.6;
-  font-family: 'Millik Regular', sans-serif;
+  font-family: "Euclid Circular", sans-serif;
   font-size: 15px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
