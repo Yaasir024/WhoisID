@@ -45,7 +45,7 @@ const prevSlide = () => {
         </h3>
       </div>
       <div class="order-1 2xl:order-2">
-        <div class="flex flex-wrap items-center justify-center">
+        <div class="flex flex-wrap 2xl:flex-nowrap items-center justify-center">
           <div class="px-[10px] mb-10 2xl:mb-0">
             <div
               class="card w-[270px] h-[370px] p-[40px] bg-id-gray-4 border border-[#DADFE8] rounded-xl flex flex-col justify-between"
