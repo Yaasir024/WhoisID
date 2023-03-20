@@ -1,4 +1,7 @@
 <script setup>
+import Fintech from "@/assets/images/Nav/fintech.svg";
+import Banks from "@/assets/images/Nav/banks.svg";
+import Money from "@/assets/images/Nav/money.svg";
 const emits = defineEmits(["close"]);
 </script>
 
@@ -10,9 +13,11 @@ const emits = defineEmits(["close"]);
       <li class="mb-[26px]">
         <RouterLink to="/banks" @click="$emit('close')" class="link">
           <div class="flex items-center">
-            <img src="@/assets/images/Nav/banks.svg" alt="" class="" />
+            <img :src="Banks" alt="" class="" />
             <div class="ml-[16px]">
-              <h2 class="link-head text-[16px] leading-[24px] font-medium text-id-dark-1">
+              <h2
+                class="link-head text-[16px] leading-[24px] font-medium text-id-dark-1"
+              >
                 Banks
               </h2>
               <h2 class="link-body text-[14px] leading-[20px] text-[#667085]">
@@ -25,9 +30,11 @@ const emits = defineEmits(["close"]);
       <li class="mb-[26px]">
         <RouterLink to="/fintechs" @click="$emit('close')" class="link">
           <div class="flex items-center">
-            <img src="@/assets/images/Nav/fintech.svg" alt="" class="" />
+            <img :src="Fintech" alt="" class="" />
             <div class="ml-[16px]">
-              <h2 class="link-head text-[16px] leading-[24px] font-medium text-id-dark-1">
+              <h2
+                class="link-head text-[16px] leading-[24px] font-medium text-id-dark-1"
+              >
                 Fintechs
               </h2>
               <h2 class="link-body text-[14px] leading-[20px] text-[#667085]">
@@ -40,9 +47,11 @@ const emits = defineEmits(["close"]);
       <li class="">
         <RouterLink to="/money-lenders" @click="$emit('close')" class="link">
           <div class="flex items-center">
-            <img src="@/assets/images/Nav/money.svg" alt="" class="" />
+            <img :src="Money" alt="" class="" />
             <div class="ml-[16px]">
-              <h2 class="link-head text-[16px] leading-[24px] font-medium text-id-dark-1">
+              <h2
+                class="link-head text-[16px] leading-[24px] font-medium text-id-dark-1"
+              >
                 Money Lenders
               </h2>
               <h2 class="link-body text-[14px] leading-[20px] text-[#667085]">
@@ -58,8 +67,9 @@ const emits = defineEmits(["close"]);
 </template>
 
 <style scoped>
-.link-head, .link-body {
-  transition: all .3s ease-in-out;
+.link-head,
+.link-body {
+  transition: all 0.3s ease-in-out;
 }
 .link:hover .link-head {
   color: #0f595c;

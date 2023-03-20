@@ -79,7 +79,7 @@ const prevSlide = () => {
                 >
                   <div class="w-full text-center">
                     <img
-                      src="@/assets/images/Home/slider-facial-auth.svg"
+                      src="@/assets/images/Home/facial-auth.svg"
                       alt=""
                       class="h-[140px]"
                     />
@@ -104,7 +104,7 @@ const prevSlide = () => {
                 >
                   <div class="w-full text-center">
                     <img
-                      src="@/assets/images/Home/slider-address.svg"
+                      src="@/assets/images/Home/address-verification.svg"
                       alt=""
                       class="h-[140px]"
                     />
@@ -129,7 +129,7 @@ const prevSlide = () => {
                 >
                   <div class="w-full text-center">
                     <img
-                      src="@/assets/images/Home/slider-proof.svg"
+                      src="@/assets/images/Home/proof.svg"
                       alt=""
                       class="h-[140px]"
                     />
