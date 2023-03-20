@@ -32,7 +32,7 @@
           class="max-w-[270px] h-[278px] z-[20]"
         />
         <button
-          class="tag-btn flex items-center py-[6px] px-[10px] absolute top-[-45px] left-[-85px] w-max z-[25]"
+          class="facial-btn tag-btn flex items-center py-[6px] px-[10px] absolute top-[-45px] left-[-85px] w-max h-max z-[25]"
         >
           <img
             src="@/assets/images/Home/hero-tick.svg"
@@ -136,9 +136,50 @@
   animation: spin 8s linear infinite !important;
 }
 
+/* top-[-45px] left-[-85px] */
+/* top-[-25px] right-[-120px]  */
+/* bottom-[-40px] right-[35px]  */
+/* bottom-[100px] left-[-145px]  */
+@keyframes facial {
+  0% {
+    top: -45px;
+    left: -85px;
+    bottom: auto;
+    right: auto;
+  }
+  25% {
+    top: -25px;
+    right: -120px;
+    bottom: initial;
+    left: initial;
+  }
+  60% {
+    bottom: -40px;
+    right: 35px;
+    top: initial;
+    left: initial;
+  }
+  85% {
+    bottom: 100px;
+    left: -145px;
+    top: initial;
+    right: initial;
+  }
+  100% {
+    top: -45px;
+    left: -85px;
+    bottom: initial;
+    right: initial;
+  }
+}
+
+
 .tag-btn {
   background: #f9fafb;
   box-shadow: 0px 0px 16px rgba(52, 52, 52, 0.1);
   border-radius: 40px;
+}
+.facial-btn {
+  /* animation: facial 24s linear infinite !important; */
 }
 </style>

@@ -56,12 +56,12 @@ const setCountry = (val) => {
         </li>
         <li class="mr-[32px]">
           <RouterLink to="/use-cases">
-            <span class="text-[16px] leading-[24px]">Use cases</span>
+            <span class="text-[16px] leading-[24px] hover:text-id-green-2 transition-all duration-200 ease-in-out">Use cases</span>
           </RouterLink>
         </li>
         <li class="">
           <RouterLink to="/">
-            <span class="text-[16px] leading-[24px]">Resources</span>
+            <span class="text-[16px] leading-[24px] hover:text-id-green-2 transition-all duration-200 ease-in-out">Resources</span>
           </RouterLink>
         </li>
       </ul>

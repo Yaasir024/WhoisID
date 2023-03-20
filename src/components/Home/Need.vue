@@ -4,7 +4,7 @@
       <img src="@/assets/images/Home/need.png" alt="" class="" />
     </div>
     <div class="lg:max-w-[555px] lg:ml-[80px] xl:ml-[120px] ">
-      <h1 class="text-[42px] text-id-dark-1 leading-[50px] tracking-[-0.02em] font-millik">
+      <h1 class="text-[28px] sm:text-[42px] text-id-dark-1 leading-[38px] sm:leading-[50px] tracking-[-0.02em] font-millik">
         Everything you need, less of what you don’t
       </h1>
       <ul class="">

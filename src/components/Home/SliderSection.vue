@@ -35,7 +35,7 @@ const prevSlide = () => {
     >
       <div class="lg:max-w-[640px] pr-[35px] sm:pr-[80px] 2xl:pr-[152px] order-2 xl:order-1">
         <h1
-          class="text-id-dark-1 text-[38px] leading-[53px] tracking-[-0.02em] font-millik"
+          class="text-id-dark-1 text-[28px] sm:text-[38px] leading-[36px] sm:leading-[53px] tracking-[-0.02em] font-millik"
         >
           Streamline your KYC/AML compliance with accurate
           <span class="text-id-yellow">Who and Where</span> verification

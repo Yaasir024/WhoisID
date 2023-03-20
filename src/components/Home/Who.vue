@@ -8,7 +8,7 @@
         >Who?</span
       >
       <h1
-        class="text-[42px] text-id-dark-1 leading-[59px] tracking-[-0.02em] mt-[16px] font-millik"
+        class="text-[24px] xs:text-[28px] sm:text-[42px] text-id-dark-1 leading-[38px] sm:leading-[59px] tracking-[-0.02em] mt-[16px] font-millik"
       >
         Facial authentication
       </h1>
