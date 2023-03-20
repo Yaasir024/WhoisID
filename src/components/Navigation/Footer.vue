@@ -10,7 +10,7 @@
             <RouterLink to="/"> Industries </RouterLink>
           </li>
           <li class="mr-[24px] text-[14px] leading-[24px]">
-            <RouterLink to="/"> Use cases </RouterLink>
+            <RouterLink to="/use-cases"> Use cases </RouterLink>
           </li>
           <li class="mr-[24px] text-[14px] leading-[24px]">
             <RouterLink to="/"> Resources </RouterLink>

@@ -42,7 +42,7 @@ const country = ref("africa");
           </transition>
         </li>
         <li class="mr-[32px]">
-          <RouterLink to="/">
+          <RouterLink to="/use-cases">
             <span class="text-[16px] leading-[24px]">Use cases</span>
           </RouterLink>
         </li>
