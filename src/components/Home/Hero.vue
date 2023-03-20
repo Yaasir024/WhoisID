@@ -230,7 +230,6 @@ onUnmounted(() => {
       />
     </div>
   </section>
-  {{ showFeature1 }} Renne
 </template>
 
 <style scoped>
