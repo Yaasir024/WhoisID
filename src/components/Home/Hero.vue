@@ -1,7 +1,10 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from "vue";
 
-const showFeature1 = ref("2");
+import Hero1 from "@/assets/images/Home/hero.png";
+import Hero2 from "@/assets/images/Home/hero-2.png";
+
+const showFeature1 = ref("1");
 let intervalId;
 
 const switchImages = () => {
@@ -55,18 +58,18 @@ onUnmounted(() => {
     <div
       class="w-full hidden xl:flex items-center justify-center relative order-1 xl:order-2"
     >
-      <div class="relative scale-100 z-[28] max-w-[270px] h-[278px] ">
+      <div class="relative scale-100 z-[28] max-w-[270px] h-[278px]">
         <transition-group name="grow">
           <!-- Main -->
           <img
-            src="@/assets/images/Home/hero.png"
+            :src="Hero1"
             loading="lazy"
             alt=""
             class="max-w-[270px] h-[278px] z-[20]"
             v-if="showFeature1 == '1'"
           />
           <img
-            src="@/assets/images/Home/hero-2.png"
+            :src="Hero2"
             loading="lazy"
             alt=""
             class="max-w-[270px] h-[278px] z-[20]"
