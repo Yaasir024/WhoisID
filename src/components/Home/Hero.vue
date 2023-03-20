@@ -63,14 +63,12 @@ onUnmounted(() => {
           <!-- Main -->
           <img
             :src="Hero1"
-            loading="lazy"
             alt=""
             class="max-w-[270px] h-[278px] z-[20]"
             v-if="showFeature1 == '1'"
           />
           <img
             :src="Hero2"
-            loading="lazy"
             alt=""
             class="max-w-[270px] h-[278px] z-[20]"
             v-if="showFeature1 == '2'"
