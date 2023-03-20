@@ -1,13 +1,13 @@
 <template>
   <section
-    class="bg-id-green-1 px-[112px] py-[154px] flex items-center flex-col lg:flex-row"
+    class="bg-id-green-1 px-[40px] xl:px-[112px] pt-[65px] lg:pt-[150px] pb-[154px] flex lg:items-center flex-col lg:flex-row"
   >
     <div class="max-w-[630px]">
-      <h1 class="text-white text-[56px] leading-[72px] tracking-[-0.02em]">
+      <h1 class="text-white text-[38px] sm:text-[56px] leading-[48px] sm:leading-[72px] tracking-[-0.02em]">
         Trust and authenticate your customers with
         <span class="text-id-yellow">digital verification</span>
       </h1>
-      <h3 class="text-id-gray-3 text-[22px] leading-[30px] mt-[16px]">
+      <h3 class="text-id-gray-3 text-[18px] sm:text-[22px] leading-[28px] sm:leading-[30px] mt-[16px]">
         Make informed business decisions by verifying who your customers are and
         where they are located.
       </h3>
@@ -19,7 +19,7 @@
         </button>
       </div>
     </div>
-    <div class="w-full flex items-center justify-center relative">
+    <div class="w-full hidden lg:flex items-center justify-center relative">
       <img
         src="@/assets/images/Home/hero.png"
         loading="lazy"

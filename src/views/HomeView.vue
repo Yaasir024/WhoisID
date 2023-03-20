@@ -12,7 +12,7 @@ import Report from '@/components/Home/Report.vue'
 <template>
   <main class="pt-[80px]">
     <Hero />
-    <!-- <SliderSection /> -->
+    <SliderSection />
     <Who />
     <Where />
     <Proof />

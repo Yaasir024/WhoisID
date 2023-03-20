@@ -1,6 +1,6 @@
 <template>
-  <section class="min-h-screen px-[80px] py-[96px]">
-    <div class="bg-id-green-1 pt-[81px] pb-[105px] rounded-[24px]">
+  <section class="min-h-screen px-[45px] lg:px-[80px] py-[96px]">
+    <div class="bg-id-green-1 pt-[81px] pb-[105px] px-[20px] rounded-[24px]">
       <div class="flex flex-col items-center">
         <span class="text-[18px] leading-[27px] font-medium text-id-yellow"
           >Cost Effective</span
@@ -16,8 +16,8 @@
           A cutting edge digital verification system that reduces the cost of
           facial and address verification
         </p>
-        <div class="flex mt-[64px]">
-          <div class="px-[12px]">
+        <div class="flex flex-wrap items-center justify-center mt-[64px]">
+          <div class="px-[12px] mb-12">
             <div
               class="bg-white p-[40px] rounded-lg w-[340px] h-[410px] flex flex-col"
             >
@@ -33,7 +33,7 @@
               </div>
             </div>
           </div>
-          <div class="px-[12px]">
+          <div class="px-[12px] mb-12">
             <div
               class="bg-white p-[40px] rounded-lg w-[340px] h-[410px] flex flex-col"
             >
@@ -49,7 +49,7 @@
               </div>
             </div>
           </div>
-          <div class="px-[12px]">
+          <div class="px-[12px] mb-12">
             <div
               class="bg-white p-[40px] rounded-lg w-[340px] h-[410px] flex flex-col"
             >

@@ -1,9 +1,9 @@
 <template>
-  <section class="flex items-center px-[112px] pt-[20px] pb-[80px]">
-    <div class="max-w-[542px] w-full">
+  <section class="flex items-center px-[40px] md:px-[70px] xl:px-[112px] py-[70px] lg:py-[88px] flex-col lg:flex-row">
+    <div class="max-w-[542px] w-full mb-10 lg:mb-0 ">
       <img src="@/assets/images/Home/who.png" alt="" class="" />
     </div>
-    <div class="max-w-[618px] ml-[146px]">
+    <div class="lg:max-w-[618px] lg:ml-[80px] xl:ml-[120px] ">
       <span class="text-[18px] leading-[24px] font-medium text-id-yellow"
         >Who?</span
       >

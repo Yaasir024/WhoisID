@@ -1,6 +1,8 @@
 <template>
-  <section class="flex items-center px-[112px] py-[88px]">
-    <div class="max-w-[618px] mr-[160px]">
+  <section
+    class="flex items-center px-[40px] md:px-[70px] xl:px-[112px] py-[60px] lg:py-[88px] flex-col lg:flex-row"
+  >
+    <div class="lg:max-w-[618px] lg:mr-[80px] xl:mr-[160px] order-2 lg:order-1">
       <span class="text-[18px] leading-[24px] font-medium text-id-yellow"
         >Proof of address</span
       >
@@ -15,7 +17,7 @@
         provided is authentic.
       </p>
     </div>
-    <div class="max-w-[562px] w-full">
+    <div class="max-w-[562px] w-full order-1 lg:order-2 mb-10 lg:mb-0 ">
       <img src="@/assets/images/Home/proof.png" alt="" class="" />
     </div>
   </section>

@@ -1,9 +1,9 @@
 <template>
-  <section class="flex items-center px-[112px] py-[88px]">
-    <div class="max-w-[542px] w-full">
+  <section class="flex items-center px-[40px] md:px-[70px] xl:px-[112px] py-[60px] lg:py-[88px] flex-col lg:flex-row">
+    <div class="max-w-[542px] w-full mb-10 lg:mb-0 ">
       <img src="@/assets/images/Home/need.png" alt="" class="" />
     </div>
-    <div class="max-w-[555px] ml-[120px]">
+    <div class="lg:max-w-[555px] lg:ml-[80px] xl:ml-[120px] ">
       <h1 class="text-[42px] text-id-dark-1 leading-[50px] tracking-[-0.02em]">
         Everything you need, less of what you don’t
       </h1>
