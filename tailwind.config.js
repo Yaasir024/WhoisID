@@ -3,7 +3,7 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
     fontFamily: {
-      Inter: ["Inter"],
+      Millik: ["Millik Regular"],
       sharp: ["Sharp Grotesk"],
     },
     screens: {
@@ -34,6 +34,8 @@ module.exports = {
         "id-yellow": "#F28532",
         "id-dark-1": "#101828",
         "id-dark-2": "#333333",
+        "id-gray-3": "#D2E0E0",
+        "id-gray-4": "#F7F8F9",
       },
       flex: {
         "25%": "0 0 25%",
