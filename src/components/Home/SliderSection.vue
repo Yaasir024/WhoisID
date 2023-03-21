@@ -26,7 +26,7 @@ const prevSlide = () => {
 </script>
 
 <template>
-  <section class="bg-white">
+  <section class="bg-gray-100 border-b">
     <div
       class="px-[40px] lg:px-[80px] xl:px-[112px] 2xl:pr-0 pt-[48px] pb-[112px] flex xl:items-center overflow-hidden flex-col 2xl:flex-row"
     >
@@ -48,7 +48,7 @@ const prevSlide = () => {
         <div class="flex flex-wrap 2xl:flex-nowrap items-center justify-center">
           <div class="px-[10px] mb-10 2xl:mb-0">
             <div
-              class="card w-[270px] h-[370px] p-[40px] bg-id-gray-4 border border-[#DADFE8] rounded-xl flex flex-col justify-between"
+              class="card w-[270px] h-[370px] p-[40px] bg-id-gray-4 border border-[#DADFE8] rounded-xl flex flex-col justify-between shadow-lg"
             >
               <div class="w-full text-center">
                 <img
@@ -70,7 +70,7 @@ const prevSlide = () => {
           </div>
           <div class="px-[10px] mb-10 2xl:mb-0">
             <div
-              class="card w-[270px] h-[370px] p-[40px] bg-id-gray-4 border border-[#DADFE8] rounded-xl flex flex-col justify-between"
+              class="card w-[270px] h-[370px] p-[40px] bg-id-gray-4 border border-[#DADFE8] rounded-xl flex flex-col justify-between shadow-lg"
             >
               <div class="w-full text-center">
                 <img
@@ -92,7 +92,7 @@ const prevSlide = () => {
           </div>
           <div class="px-[10px] mb-10 2xl:mb-0">
             <div
-              class="card w-[270px] h-[370px] p-[40px] bg-id-gray-4 border border-[#DADFE8] rounded-xl flex flex-col justify-between"
+              class="card w-[270px] h-[370px] p-[40px] bg-id-gray-4 border border-[#DADFE8] rounded-xl flex flex-col justify-between shadow-lg"
             >
               <div class="w-full text-center">
                 <img
