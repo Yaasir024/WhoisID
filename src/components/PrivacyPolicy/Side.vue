@@ -116,7 +116,7 @@ const goToSection = (section) => {
                 }"
                 @click="goToSection('section-6')"
               >
-                Data subject’s right in relation to personal data
+                Technological aspects of our Service provision and development
               </li>
               <li
                 class="item"
@@ -134,7 +134,7 @@ const goToSection = (section) => {
                 }"
                 @click="goToSection('section-8')"
               >
-                Security of personal data
+                Disclosure and transfer of Personal Data
               </li>
               <li
                 class="item"
@@ -143,7 +143,7 @@ const goToSection = (section) => {
                 }"
                 @click="goToSection('section-9')"
               >
-                Retention of personal data
+                Security of Personal Data
               </li>
               <li
                 class="item"
@@ -152,7 +152,7 @@ const goToSection = (section) => {
                 }"
                 @click="goToSection('section-10')"
               >
-                Disclosure and transfer of personal data
+                Retention of Personal Data
               </li>
               <li
                 class="item"
@@ -256,7 +256,7 @@ const goToSection = (section) => {
           }"
           @click="goToSection('section-6')"
         >
-          Data subject’s right in relation to personal data
+          Technological aspects of our Service provision and development
         </li>
         <li
           class="item"
@@ -274,7 +274,7 @@ const goToSection = (section) => {
           }"
           @click="goToSection('section-8')"
         >
-          Security of personal data
+          Disclosure and transfer of Personal Data
         </li>
         <li
           class="item"
@@ -283,7 +283,7 @@ const goToSection = (section) => {
           }"
           @click="goToSection('section-9')"
         >
-          Retention of personal data
+          Security of Personal Data
         </li>
         <li
           class="item"
@@ -292,7 +292,7 @@ const goToSection = (section) => {
           }"
           @click="goToSection('section-10')"
         >
-          Disclosure and transfer of personal data
+          Retention of Personal Data
         </li>
         <li
           class="item"
