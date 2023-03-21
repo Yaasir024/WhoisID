@@ -53,7 +53,7 @@ const goToSection = (section) => {
         </button>
         <transition name="menu">
           <div
-            class="absolute dropdown top-[40px] left-[0px] w-[320px] px-[20px] py-[10px] bg-white border rounded-md shadow-md max-h-[410px] overflow-y-auto z-20"
+            class="absolute dropdown top-[50px] left-[0px] w-[320px] px-[20px] py-[10px] bg-white border rounded-md shadow-md max-h-[410px] overflow-y-auto z-20"
             v-if="showContentMenu"
           >
             <div
