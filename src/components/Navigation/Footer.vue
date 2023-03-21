@@ -11,13 +11,13 @@
       <nav class="">
         <ul class="flex items-center">
           <li class="mr-[24px] text-[14px] leading-[24px]">
-            <RouterLink to="/"> Industries </RouterLink>
+            <RouterLink to="/privacy-policy"> Privacy Policy </RouterLink>
           </li>
           <li class="mr-[24px] text-[14px] leading-[24px]">
-            <RouterLink to="/use-cases"> Use cases </RouterLink>
+            <RouterLink to="/"> Terms of Service </RouterLink>
           </li>
           <li class="mr-[24px] text-[14px] leading-[24px]">
-            <RouterLink to="/"> Resources </RouterLink>
+            <RouterLink to="/"> Cookies </RouterLink>
           </li>
         </ul>
       </nav>
