@@ -1,6 +1,6 @@
 <template>
   <section
-    class="bg-id-green-1 px-[32px] sm:px-[40px] xl:px-[112px] pt-[45px] lg:pt-[150px] pb-[154px] flex items-center flex-col lg:flex-row overflow-hidden"
+    class="bg-id-green-1 px-[32px] sm:px-[40px] xl:px-[112px] 2xl:px-[125px] pt-[45px] lg:pt-[150px] pb-[154px] flex items-center flex-col lg:flex-row overflow-hidden"
   >
     <div class="max-w-[500px] xl:max-w-[550px] 2xl:max-w-[610px] order-2 lg:order-1 mt-4 lg:mt-0">
       <button
