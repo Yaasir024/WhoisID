@@ -1,6 +1,6 @@
 <template>
   <section
-    class="bg-id-green-1 px-[40px] xl:px-[112px] pt-[45px] lg:pt-[150px] pb-[154px] flex items-center flex-col lg:flex-row overflow-hidden"
+    class="bg-id-green-1 px-[32px] sm:px-[40px] xl:px-[112px] pt-[45px] lg:pt-[150px] pb-[154px] flex items-center flex-col lg:flex-row overflow-hidden"
   >
     <div class="max-w-[500px] xl:max-w-[550px] order-2 lg:order-1 mt-4 lg:mt-0">
       <button
@@ -9,11 +9,11 @@
         BANKS
       </button>
       <h1
-        class="text-white text-[48px] leading-[67px] font-millik tracking-[-0.02em] mt-[28px]"
+        class="text-white text-[30px] sm:text-[48px] leading-[46px] sm:leading-[67px] font-millik tracking-[-0.02em] mt-[28px]"
       >
         Meet all compliance regulatory policies.
       </h1>
-      <h3 class="text-id-gray-3 text-[20px] leading-[30px] mt-[24px]">
+      <h3 class="text-id-gray-3 text-[18px] sm:text-[20px] leading-[26px] sm:leading-[30px] mt-[24px]">
         Verify the address of customers to guage their legitimacy and
         credibility by using customer acceptance policy, customer identification
         and address or location verification.
