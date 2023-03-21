@@ -4,6 +4,8 @@ import { ref, onMounted, onUnmounted } from "vue";
 import Hero1 from "@/assets/images/Home/hero.png";
 import Hero2 from "@/assets/images/Home/hero-2.png";
 
+
+// Image animation
 const showFeature1 = ref("1");
 let intervalId;
 
