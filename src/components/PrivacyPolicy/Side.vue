@@ -32,7 +32,7 @@ const goToSection = (section) => {
   <aside class="w-[30px] md:w-[40px] lg:w-[320px]">
     <div
       class="z-20"
-      :class="isScrolled ? 'fixed top-[100px] left-[40px]' : ''"
+      :class="isScrolled ? 'fixed top-[100px] left-[30px] md:left-[40px]' : ''"
     >
       <div class="relative block lg:hidden pt-[10px]" ref="contentMenu">
         <button
