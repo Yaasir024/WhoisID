@@ -2,7 +2,7 @@
   <section
     class="bg-id-green-1 px-[32px] sm:px-[40px] xl:px-[112px] pt-[45px] lg:pt-[150px] pb-[154px] flex items-center flex-col lg:flex-row overflow-hidden"
   >
-    <div class="max-w-[500px] xl:max-w-[550px] order-2 lg:order-1 mt-4 lg:mt-0">
+    <div class="max-w-[500px] xl:max-w-[550px] 2xl:max-w-[610px] order-2 lg:order-1 mt-4 lg:mt-0">
       <button
         class="text-[14px] leading-[20px] font-medium font-inter text-id-yellow py-[4px] px-[12px] bg-white rounded-2xl"
       >
