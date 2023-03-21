@@ -1,28 +1,6 @@
 <script setup>
 import { ref, computed } from "vue";
-// Import Swiper Vue.js components
-import { Swiper, SwiperSlide, useSwiper } from "swiper/vue";
 
-// Import Swiper styles
-import "swiper/css";
-
-// GET SWIPER
-let swipfunc = null;
-const onSwiper = (swiper) => {
-  swipfunc = swiper;
-};
-const onSlideChange = () => {};
-
-const nextSlide = () => {
-  if (swipfunc.activeIndex < swipfunc.slides.length - 1) {
-    swipfunc.slideNext();
-  }
-};
-const prevSlide = () => {
-  if (swipfunc.activeIndex > 0) {
-    swipfunc.slidePrev();
-  }
-};
 </script>
 
 <template>

@@ -4,13 +4,13 @@
   >
     <div class="max-w-[650px] z-20">
       <h1
-        class="text-white text-[28px] sm:text-[40px] leading-[32px] sm:leading-[48px] font-semibold tracking-[-0.02em]"
+        class="text-white text-[26px] sm:text-[40px] leading-[30px] sm:leading-[48px] font-semibold tracking-[-0.02em] text-center sm:text-left"
       >
         Secure your business and expand your user base with our digital
         verification suite
       </h1>
       <h3
-        class="text-[18px] sm:text-[20px] leading-[26px] sm:leading-[30px] mt-[20px]"
+        class="text-[16px] sm:text-[20px] leading-[22px] sm:leading-[30px] mt-[20px] text-center sm:text-left"
       >
         We proffer a convenient, smart, digital, and fast solution that
         eliminates the obstacle customer verification poses through SDK, widget

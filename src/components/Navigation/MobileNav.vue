@@ -18,7 +18,7 @@ const toggleMenu = (val) => {
   >
     <div class="h-[64px] border-b px-10 flex items-center justify-between">
       <RouterLink to="/" @click="$emit('close')">
-        <img src="@/assets/images/logo.svg" alt="" class="" />
+        <img src="@/assets/images/Logo/black.svg" alt="" class="" />
       </RouterLink>
       <button @click="$emit('close')">
         <svg
@@ -51,9 +51,9 @@ const toggleMenu = (val) => {
         >
           <span class="mr-[13px]">Industries</span>
           <img
-            src="@/assets/icons/chevron-down.svg"
+            src="@/assets/icons/chevron-down-black.svg"
             alt=""
-            class=""
+            class="h-[16px] w-[16px]"
             :class="activeMenu == 'features' ? 'rotate-180' : ''"
           />
         </div>
@@ -64,27 +64,27 @@ const toggleMenu = (val) => {
           "
         >
           <ul class="pl-4">
-            <li class="link mb-[10px]">
+            <li class="link mb-[12px]">
               <RouterLink to="/banks" @click="$emit('close')">
                 <div class="flex items-center">
-                  <img src="@/assets/images/Nav/banks.svg" alt="" class="" />
+                  <img src="@/assets/images/Nav/banks.svg" alt="" class="w-[25px] h-[25px] mr-2" />
 
                   <span class="text-black">Banks</span>
                 </div>
               </RouterLink>
             </li>
-            <li class="link mb-[10px]">
+            <li class="link mb-[12px]">
               <RouterLink to="/fintechs" @click="$emit('close')">
                 <div class="flex items-center">
-                  <img src="@/assets/images/Nav/fintech.svg" alt="" class="" />
+                  <img src="@/assets/images/Nav/fintech.svg" alt="" class="w-[25px] h-[25px] mr-2" />
                   <span class="text-black">Fintechs</span>
                 </div>
               </RouterLink>
             </li>
-            <li class="link mb-[10px]">
+            <li class="link mb-[12px]">
               <RouterLink to="/money-lenders" @click="$emit('close')">
                 <div class="flex items-center">
-                  <img src="@/assets/images/Nav/money.svg" alt="" class="" />
+                  <img src="@/assets/images/Nav/money.svg" alt="" class="w-[25px] h-[25px] mr-2" />
                   <span class="text-black">Money Lenders</span>
                 </div>
               </RouterLink>
@@ -121,6 +121,6 @@ const toggleMenu = (val) => {
 }
 
 .link:hover span {
-  color: #101828;
+  color: #0F595C;
 }
 </style>
