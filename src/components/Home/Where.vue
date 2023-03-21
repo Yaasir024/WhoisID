@@ -1,6 +1,6 @@
 <template>
   <section
-    class="bg-id-green-1 min-h-screen px-[40px] md:px-[70px] xl:px-[112px] pt-[87px]"
+    class="bg-id-green-1 sm:min-h-screen px-[40px] md:px-[70px] xl:px-[112px] pt-[87px] pb-[90px]"
   >
     <div class="flex flex-col items-center">
       <span class="text-[18px] leading-[27px] font-medium text-id-yellow"
